@@ -17,7 +17,7 @@ export const CommentBox = styled.form`
 `
 
 export const ContentWrapper = styled.div`
-  color: var(--gray-700);
+  background: var(--gray-700);
   padding: 1rem;
   border-radius: 8px;
 
@@ -66,6 +66,7 @@ export const Content = styled.p`
 `
 
 export const FooterWrapper = styled.footer`
+  display: flex;
   margin-top: 1rem;
 `
 
@@ -74,9 +75,11 @@ export const LikeButton = styled.button`
   flex-direction: row;
   align-items: center;
   cursor: pointer;
-  color: var(--gray-400);
-  background: transparent;
+
   border: 0;
+  border-radius: 2px;
+  background: transparent;
+  color: var(--gray-400);
 
   transition: background-color 0.1s;
 
@@ -84,10 +87,10 @@ export const LikeButton = styled.button`
     margin-right: 0.5rem;
   }
 
-  /* > span:before {
-    content: "\2022";
+  > span:before {
+    content: "•";
     padding: 0 0.25rem;
-  } */
+  }
 
   &:hover {
     color: var(--green-300);

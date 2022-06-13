@@ -25,7 +25,8 @@ export const Comment = () => {
         <S.FooterWrapper>
           <S.LikeButton type='submit'>
             <ThumbsUp size={20} />
-            Aplaudir <span>20</span>
+            Aplaudir
+            <span>20</span>
           </S.LikeButton>
         </S.FooterWrapper>
       </S.CommentBox>
