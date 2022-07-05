@@ -1,4 +1,6 @@
+import { Avatar } from '../Avatar'
 import { Comment } from '../Comment'
+
 import * as S from './styles'
 
 export const Post = () => {
@@ -6,7 +8,7 @@ export const Post = () => {
     <S.PostWrapper>
       <S.Header>
         <S.Author>
-          <S.Avatar src="https://github.com/anddersonrds.png" alt="Imagem do avatar" />
+          <Avatar hasBorder src="https://github.com/anddersonrds.png" alt="Imagem do avatar" />
           <S.Infos>
             <S.Name>Anderson Rodrigues</S.Name>
             <S.Job>Web Developer</S.Job>

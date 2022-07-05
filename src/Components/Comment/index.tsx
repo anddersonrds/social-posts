@@ -1,11 +1,13 @@
 import { ThumbsUp, Trash } from 'phosphor-react'
 
+import { Avatar } from '../Avatar'
+
 import * as S from './styles'
 
 export const Comment = () => {
   return (
     <S.CommentWrapper>
-      <S.Avatar src="https://github.com/anddersonrds.png" alt="Imagem do avatar" />
+      <Avatar src="https://github.com/anddersonrds.png" alt="Imagem do avatar" />
       <S.CommentBox>
         <S.ContentWrapper>
           <header>

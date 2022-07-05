@@ -22,14 +22,6 @@ export const Author = styled.div`
   gap: 1rem;
 `
 
-export const Avatar = styled.img`
-  width: calc(3rem + 12px);
-  height: calc(3rem + 12px);
-  border-radius: 8px;
-  border: 4px solid var(--gray-800);
-  outline: 2px solid var(--green-500);
-`
-
 export const Infos = styled.div`
   display: flex;
   flex-direction: column;
